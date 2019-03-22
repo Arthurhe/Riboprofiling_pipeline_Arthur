@@ -12,7 +12,7 @@ bowtie (>= 1.2.2)
 
 ### installation
 
-download the repository
+download the repository  
 cd to the repository
 ```
 conda env create -f ribo_profiling_pipeline_env.yml   #create the appropriate environment for the pipeline
@@ -28,7 +28,7 @@ enter the environment we created
 source activate ribo_profiling
 ```
 
-create the bowtie reference according to http://bowtie-bio.sourceforge.net/manual.shtml#the-bowtie-build-indexer
+create the bowtie reference according to http://bowtie-bio.sourceforge.net/manual.shtml#the-bowtie-build-indexer  
 or download pre-computed reference from ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/
 
 then run the pipeline with
@@ -39,6 +39,7 @@ Input = the path to your input fastq.gz file
 Output = the path to your output directory  
 Thread = an integer larger than 0 indicates how many thread you want to use  
 Bowtie\_ref = the path to your bowtie reference file, same as what you will use for bowtie  
+  
 for example:  
 ```
 ~/tools/Riboprofiling_pipeline_Arthur/run_pipeline.sh 190321_Bcell/B_cell_R1.fastq.gz 190321_out/ 4 /home/software/bowtie-1.1.1/genomes/mm10_150921/mm10_150921
