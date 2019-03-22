@@ -12,8 +12,8 @@ bowtie (>= 1.2.2)
 ### installation
 
 download the repository  
-cd to the repository
 ```
+cd PATH/TO/THE/REPOSITORY
 conda env create -f ribo_profiling_pipeline_env.yml   #create the appropriate environment for the pipeline
 chmod 755 codes/*   # make all the scripts executable
 chmod run_pipeline.sh   # make all the scripts executable
@@ -22,17 +22,17 @@ chmod run_pipeline.sh   # make all the scripts executable
 
 ### example
 
-enter the environment we created
+activate the environment we created
 ```
 source activate ribo_profiling
 ```
 
 create the bowtie reference according to http://bowtie-bio.sourceforge.net/manual.shtml#the-bowtie-build-indexer  
 or download pre-computed reference from ftp://ftp.ccb.jhu.edu/pub/data/bowtie_indexes/
-
-then run the pipeline with
+  
+run the pipeline by
 ```
-PATH/TO/run_pipeline.sh Input Output Thread Bowtie_ref
+PATH/TO/run_pipeline.sh $Input $Output $Thread $Bowtie_ref
 ```
 Input = the path to your input fastq.gz file  
 Output = the path to your output directory  
