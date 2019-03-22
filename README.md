@@ -1,7 +1,5 @@
 # Arthur's pipeline for mapping ribo-profiling reads
-##### generate bam files from fastq.gz files
-inspired by codes from Vince Harjono (Zid lab UCSD)  
-library prep protocol modified from: McGlincy, N. J., & Ingolia, N. T. (2017). Transcriptome-wide measurement of translation by ribosome profiling. Methods, 126, 112-129.  
+#### generate bam files from fastq.gz files
 
 ### dependency
 ``` 
@@ -45,3 +43,6 @@ for example:
 ```
 ~/tools/Riboprofiling_pipeline_Arthur/run_pipeline.sh 190321_Bcell/B_cell_R1.fastq.gz 190321_out/ 4 /home/software/bowtie-1.1.1/genomes/mm10_150921/mm10_150921
 ```
+  
+inspired by codes from Vince Harjono (Zid lab UCSD)  
+library prep protocol modified from: McGlincy, N. J., & Ingolia, N. T. (2017). Transcriptome-wide measurement of translation by ribosome profiling. Methods, 126, 112-129.   
