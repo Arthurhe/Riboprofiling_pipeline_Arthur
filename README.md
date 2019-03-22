@@ -1,6 +1,7 @@
 # Arthur's pipeline for mapping ribo-profiling reads
-##### inspired by codes from Vince Harjono (Zid lab UCSD)
-##### library prep protocol modified from: McGlincy, N. J., & Ingolia, N. T. (2017). Transcriptome-wide measurement of translation by ribosome profiling. Methods, 126, 112-129.
+##### generate bam files from fastq.gz files
+inspired by codes from Vince Harjono (Zid lab UCSD)  
+library prep protocol modified from: McGlincy, N. J., & Ingolia, N. T. (2017). Transcriptome-wide measurement of translation by ribosome profiling. Methods, 126, 112-129.  
 
 ### dependency
 ``` 
